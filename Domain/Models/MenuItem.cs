@@ -12,4 +12,6 @@ public class MenuItem
     public string Category { get; set; } = null!;
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
+
+    public Menu? Menu { get; set; }
 }

@@ -12,4 +12,6 @@ public class Subscription
     public bool Isactive { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
+
+    public Company? Company { get; set; }
 }
